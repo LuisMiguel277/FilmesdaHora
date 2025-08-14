@@ -1,0 +1,289 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=TikTok+Sans:opsz,wght@12..36,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/*====================Cabeça==================== */
+
+body{
+    background-color: #0a0a0a; 
+ }
+
+header{
+    height: 12vh;
+    background-color: gold;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header>h1{
+    font-size: 2.5em;
+    font-family: 'TikTok Sans';
+
+    width: 350px;
+    padding: 8px;
+    border-radius: 12px;
+    text-align: center;
+
+    color: yellow;
+    background-color: #000000e8;
+    box-shadow: inset 5px 5px 20px rgba(0, 0, 0, 0.901);
+}
+div#menui{
+    display: none;
+}
+
+/*====================Manchete==================== */
+
+article#manchete{
+    height: 120vh;
+    background-color: #0a0a0a;  
+    color: #ffffff;
+}
+div#serie{
+    width: 100%;
+    height: 130%;
+    background-color: #0D0D0D; 
+    color: #f5f5f5;
+    padding: 10px;
+}
+div#serie>picture{
+    display: flex;
+    justify-content: center;
+}
+div#serie>picture>img{
+    padding: 5px;
+    width: 90%;
+}
+div#serie>h2{
+    font-size: 2.5em;
+    font-family: "Noto Sans", monospace;
+
+    color: yellow;
+}
+div#serie>p{
+    font-size: 1.2em;
+    font-family: "Nunito Sans", sans-serif;
+    text-align: justify;
+    text-indent: 12px;
+
+    border-left: 5px solid  gold;
+    background-color: #0b0b0b7a;
+    box-shadow: inset 10px 5px 20px rgba(0, 0, 0, 0.608);
+    padding: 7px;
+}
+.Produtores{
+    height: 10%;
+
+    display: flex;
+    flex-direction: column;
+}
+.Produtores>h3{
+    font-family: "Noto Sans", monospace;
+    font-size: 1.7em;
+    padding: 5px;
+
+}
+.test{
+    display: inline-flex;
+    flex-flow: row-reverse wrap;
+    padding: 3px;
+}
+.ac{
+    font-size: 1.2em;
+    font-family: "Intel One Mono", monospace;
+    text-decoration: none;
+
+    
+    color: black;
+    border-left: 5px solid black;
+    background-color: gold;
+
+    margin-left: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    
+}
+
+i#text{
+    font-weight: bold;
+    font-style: normal;
+    cursor: pointer;
+    color: gold;
+}
+
+/*====================Temporada==================== */
+
+article#temporada{
+    height: 50vh;
+    width: 100%;
+    background-color: gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tempo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    width: 90%;
+    height: 40vh;
+
+    box-shadow: -5px 10px 15px rgba(0, 0, 0, 0.938);
+    background-color: #100e0e;}
+.tempor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 90%;
+    height: 15vh;
+    margin: 20px;
+
+    text-align: center;
+
+    border: 5px solid gold;
+    border-radius: 5px;
+    box-shadow: inset  10px 10px 20px rgba(128, 128, 128, 0.279);
+    background-color: rgb(255, 255, 255);
+    color: black;}
+.tempor>h4{
+    font-size: 1.8em;
+    font-family: 'TikTok Sans';
+    font-weight: normal;
+}
+
+/*====================Episodios==================== */
+
+article#episodios{
+    width: 100%;
+    height: 150vh;
+    background-color: #0a0a0a;  
+}
+.episo{
+    height: 100%;
+    background-color: #0f0f0f;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mais{
+    display: none;
+}
+.h3{
+    text-align: center;
+    font-size: 2.5em;
+    font-family: "Noto Sans", monospace;
+
+
+    width: 90%;
+    height: 12vh;
+
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 15px;
+
+    color: white;
+    text-shadow: 5px 3.5px 3px rgba(0, 0, 0, 0.905);
+    background-color: rgb(255, 183, 0);
+}
+.ep{
+    width: 90%;
+    height: 40vh;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 20px;
+
+    text-align: center;
+    border: 7px solid gold;
+    background-color: rgb(231, 230, 230);
+}
+.ep>p{
+    padding: 7px;
+    font-size: 1.3em;
+    font-family: "Nunito Sans", sans-serif;
+
+}
+.ep>picture>img{
+    width: 75%;
+}
+h4#eph4{
+    color: black;
+    background-color: gold;
+    border-left: 7px solid black;
+
+    width: 80%;
+    padding: 5px;
+
+    font-family: "Intel One Mono", monospace;
+    font-weight: normal;
+    font-size: 1.3em;
+}
+
+/*====================Atuacao==================== */
+article#atuacao{
+    background-color: #0f0f0f;  
+    color: wheat;
+    height: 280vh;
+}
+
+article#atuacao>.h3{
+    margin-top: 70px;
+}
+.Person{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100%;
+
+    background-color: #0f0f0f;  
+}
+
+.atores{
+    width: 90%;
+    height: 95%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    border: 6px solid  gold;
+    background-color: #0a0a0a;}
+
+.actor{
+    width: 70%;
+    height: 60vh;
+    margin: 20px;
+    background-color: rgb(9, 8, 8);
+    border-bottom: 6px solid rgb(255, 220, 21);
+       text-align: center;
+
+}
+.actor>picture>img{
+    padding-top: 10px;
+    width: 90%;
+}
+h4#acth4{
+    color: gold;
+    font-weight: normal;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 1.5em;
+    padding: 10px;
+}
