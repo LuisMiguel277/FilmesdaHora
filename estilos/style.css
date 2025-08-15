@@ -55,12 +55,13 @@ div#serie{
     padding: 10px;
 }
 div#serie>picture{
+    width: 90%;
+    margin-left: 20px;
     display: flex;
     justify-content: center;
 }
 div#serie>picture>img{
-    padding: 5px;
-    width: 90%;
+    width: 100%;
 }
 div#serie>h2{
     font-size: 2.5em;
@@ -138,8 +139,11 @@ article#temporada{
     width: 90%;
     height: 40vh;
 
+    border-radius: 15px;
     box-shadow: -5px 10px 15px rgba(0, 0, 0, 0.938);
-    background-color: #100e0e;}
+    background-color: #100e0e;
+
+}
 .tempor{
     display: flex;
     justify-content: center;
@@ -219,8 +223,13 @@ article#episodios{
     font-family: "Nunito Sans", sans-serif;
 
 }
+.ep>picture{
+    width: 80%;
+    height: 65%;
+    background-color: rgb(231, 230, 230);
+}
 .ep>picture>img{
-    width: 75%;
+    width: 100%;
 }
 h4#eph4{
     color: black;
@@ -265,7 +274,8 @@ article#atuacao>.h3{
     flex-direction: column;
 
     border: 6px solid  gold;
-    background-color: #0a0a0a;}
+    background-color: #0a0a0a;
+}
 
 .actor{
     width: 70%;
@@ -276,9 +286,14 @@ article#atuacao>.h3{
        text-align: center;
 
 }
+.actor>picture{
+    width: 100%;
+    height: 100%;
+}
 .actor>picture>img{
     padding-top: 10px;
     width: 90%;
+    height: 78%;
 }
 h4#acth4{
     color: gold;
