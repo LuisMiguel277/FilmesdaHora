@@ -11,9 +11,7 @@
 
 /*====================Cabeça==================== */
 
-body{
-    background-color: #0a0a0a; 
- }
+
 
 header{
     height: 12vh;
@@ -170,9 +168,23 @@ article#temporada{
 
 article#episodios{
     width: 100%;
-    height: 150vh;
-    background-color: #0a0a0a;  
+    height: 180vh;
+    background-color: #0a0a0a;
 }
+article#episodios>h3{ 
+        text-align: center;
+        font-size: 2.5em;
+        font-family: "Noto Sans", monospace;
+
+        width: 90%;
+        height: 6%;
+        margin: auto;
+
+        color: white;
+        text-shadow: 5px 3.5px 3px rgba(0, 0, 0, 0.905);
+        background-color: rgb(255, 183, 0);
+
+    }
 .episo{
     height: 100%;
     background-color: #0f0f0f;  
@@ -184,24 +196,7 @@ article#episodios{
 .mais{
     display: none;
 }
-.h3{
-    text-align: center;
-    font-size: 2.5em;
-    font-family: "Noto Sans", monospace;
 
-
-    width: 90%;
-    height: 12vh;
-
-    margin: auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    padding-top: 15px;
-
-    color: white;
-    text-shadow: 5px 3.5px 3px rgba(0, 0, 0, 0.905);
-    background-color: rgb(255, 183, 0);
-}
 .ep{
     width: 90%;
     height: 40vh;
@@ -224,15 +219,20 @@ article#episodios{
 
 }
 .ep>picture{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     width: 80%;
     height: 65%;
+    margin-bottom: 5px;
     background-color: rgb(231, 230, 230);
 }
 .ep>picture>img{
-    width: 100%;
+    width: 350px;
 }
 h4#eph4{
-    color: black;
+    color: rgb(19, 18, 18);
     background-color: gold;
     border-left: 7px solid black;
 
@@ -249,19 +249,31 @@ article#atuacao{
     background-color: #0f0f0f;  
     color: wheat;
     height: 280vh;
+    width: 100%;
 }
 
-article#atuacao>.h3{
-    margin-top: 70px;
-}
 .Person{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 
     height: 100%;
 
-    background-color: #0f0f0f;  
+    background-color: #0a0a0a;  
+}
+.Person>h3{ 
+        text-align: center;
+        font-size: 2.5em;
+        font-family: "Noto Sans", monospace;
+
+        width: 90%;
+        height: 3%;
+        margin: auto;
+
+        color: white;
+        text-shadow: 5px 3.5px 3px rgba(0, 0, 0, 0.905);
+        background-color: rgb(255, 183, 0);
 }
 
 .atores{
@@ -287,13 +299,13 @@ article#atuacao>.h3{
 
 }
 .actor>picture{
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    height: 50%;
 }
 .actor>picture>img{
     padding-top: 10px;
-    width: 90%;
-    height: 78%;
+    width: 260px;
+    height: 350px;
 }
 h4#acth4{
     color: gold;
