@@ -258,15 +258,16 @@
         border-bottom: 6px solid gold;
     }
      .actor>picture{
-        width: 80%;
+        width: 70%;
         height: 100%;
         background-color: pink;
+        display: block;
      }
     .actor>picture>img{
         margin-right: 30%;
         padding-top: 0px;
-        width: 270px;
-        height: 400px;
+        width: 275px;
+        height: 100%;
     }
     h4#acth4{
         width: 100%;
